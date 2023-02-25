@@ -6,7 +6,7 @@ import { useState } from "react";
 import useAuth from "../hooks/useAuth";
 import { loadCheckout } from "../lib/stripe";
 import Loader from "./Loader";
-import Table from "./table";
+import Table from "./Table";
 
 interface Props {
   products: Product[];
